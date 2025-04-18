@@ -56,15 +56,35 @@
             <ul class="mb-lg-0">
               <i class="bi bi-bell text-white"></i>
             </ul>
-            <ul class="mb-lg-0">
-              <a href="Profilo"><img src="./assets/avatar.png" alt="avatar" height="40" /></a>
-            </ul>
+
+            <div class="dropdown bg-dark ms-4">
+              <a class="btn btn-secondary dropdown-toggle bg-dark border-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                ><img src="./assets/avatar.png" alt="avatar" height="30"
+              /></a>
+
+              <ul class="dropdown-menu bg-secondary">
+                <li><a class="dropdown-item text-white bg-dark" href="#">Edite Profile</a></li>
+                <li><a class="dropdown-item text-white bg-dark" href="#">Options</a></li>
+                <li><a class="dropdown-item text-white bg-dark" href="#">Personal List</a></li>
+              </ul>
+            </div>
           </section>
         </div>
       </div>
     </nav>
     <main class="container">
-      <h1 class="title text-white">Tv Shows</h1>
+      <div class="d-flex align-items-center">
+        <h1 class="title text-white">Tv Shows</h1>
+        <div class="dropdown ms-4">
+          <a class="btn btn-secondary dropdown-toggle fs-6" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Genres</a>
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Dramma</a></li>
+            <li><a class="dropdown-item" href="#">horror</a></li>
+          </ul>
+        </div>
+      </div>
       <h2 class="text-white mt-3">Trending now</h2>
       <section class="row">
         <div class="clol-6 col-md-4 col-lg mb-4">
@@ -154,12 +174,13 @@
               <div class="col"><button class="btn text-white-50">Privacy</button></div>
               <div class="col"><button class="btn text-white-50">Legal Notice</button></div>
               <div class="col"><button class="btn text-white-50">Cookie Preferences</button></div>
-              <div class="col"><button class="btn text-white-50">Corporate Information</button></div>
+              <div class="col"><button class="btn text-white-50">Information</button></div>
               <div class="col"><button class="btn text-white-50">Contact Us</button></div>
             </div>
-            <div>
-              <button class="btn text-white-50">Service Code</button>
+            <div class="d-flex mt-3">
+              <button class="btn text-white-50 border border-ligth p-1">Service Code</button>
             </div>
+            <div class="d-flex text-white-50 mt-2"><p>©1997-2019 netflix, inc.</p></div>
           </div>
           <div class="col">3 of 3</div>
         </div>
